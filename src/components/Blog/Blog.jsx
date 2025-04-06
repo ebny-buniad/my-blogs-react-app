@@ -24,7 +24,7 @@ const Blog = ({ blog, handelBookMark, handelMarkAsRead }) => {
                     </div>
                     <h2 className="card-title">{title}</h2>
                     <div className="card-actions justify-end">
-                        <button onClick={() => { handelMarkAsRead(blog.reading_time) }} className="btn btn-primary">Buy Now</button>
+                        <button onClick={() => handelMarkAsRead(blog.reading_time, blog.id)} className="btn btn-primary">Remove from Bookmark</button>
                     </div>
                 </div>
             </div>

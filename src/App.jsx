@@ -7,13 +7,19 @@ function App() {
 
   const [bookmarked, setBookMarked] = useState([]);
   const handelBookMark = (blog) => {
-    setBookMarked([...bookmarked, blog])
+    setBookMarked([...bookmarked, blog]);
   }
 
   const [time, setTime] = useState(0);
-  const handelMarkAsRead = (readTime) => {
+  const handelMarkAsRead = (readTime, id) => {
     let reading_time = time + readTime;
     setTime(reading_time);
+    handelRemoveFromBookmark(id);
+  }
+
+  const handelRemoveFromBookmark = (id) => {
+    const remainingBookmark = bookmarked.filter((mark) => mark.id !== id);
+    setBookMarked(remainingBookmark);
   }
 
   return (
@@ -28,7 +34,7 @@ function App() {
           <h3 className='text-xl'>Reading Time : {time}</h3>
           <h3 className='text-xl'>Bookmarked Count : {bookmarked.length}</h3>
           {
-            bookmarked.map((marked) => <p key={marked.id}>{marked.title}</p>)
+            bookmarked.map((marked) => <p className='bg-sky-500 text-white rounded-md p-2 mb-1' key={marked.id}>{marked.title}</p>)
           }
         </div>
       </div>
