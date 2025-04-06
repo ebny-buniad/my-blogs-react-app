@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "cover": "https://example.com/images/blog1.jpg",
+        "title": "Mastering JavaScript in 30 Days",
+        "author_img": "https://example.com/images/author1.jpg",
+        "author": "Samiul Haque",
+        "posted_date": "2025-04-01",
+        "reading_time": "6 min read",
+        "hashtags": [
+            "#JavaScript",
+            "#WebDevelopment",
+            "#Coding"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://example.com/images/blog2.jpg",
+        "title": "The Ultimate Guide to Responsive Design",
+        "author_img": "https://example.com/images/author2.jpg",
+        "author": "Fatima Rahman",
+        "posted_date": "2025-03-28",
+        "reading_time": "7 min read",
+        "hashtags": [
+            "#CSS",
+            "#ResponsiveDesign",
+            "#Frontend"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://example.com/images/blog3.jpg",
+        "title": "Understanding the JavaScript Event Loop",
+        "author_img": "https://example.com/images/author3.jpg",
+        "author": "Raihan Kabir",
+        "posted_date": "2025-03-25",
+        "reading_time": "5 min read",
+        "hashtags": [
+            "#JavaScript",
+            "#Async",
+            "#Performance"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://example.com/images/blog4.jpg",
+        "title": "Top 10 VS Code Extensions for Developers",
+        "author_img": "https://example.com/images/author4.jpg",
+        "author": "Nusrat Jahan",
+        "posted_date": "2025-03-20",
+        "reading_time": "4 min read",
+        "hashtags": [
+            "#VSCode",
+            "#Tools",
+            "#Productivity"
+        ]
+    }
+]
