@@ -5,7 +5,7 @@ import { CiBookmarkCheck } from "react-icons/ci";
 
 
 
-const Blog = ({ blog, handelBookMark }) => {
+const Blog = ({ blog, handelBookMark, handelMarkAsRead }) => {
     // console.log(blog.id)
     const { cover, title, author, posted_date } = blog;
     return (
@@ -24,7 +24,7 @@ const Blog = ({ blog, handelBookMark }) => {
                     </div>
                     <h2 className="card-title">{title}</h2>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button onClick={() => { handelMarkAsRead(blog.reading_time) }} className="btn btn-primary">Buy Now</button>
                     </div>
                 </div>
             </div>
