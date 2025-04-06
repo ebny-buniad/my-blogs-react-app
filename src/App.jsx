@@ -1,8 +1,15 @@
+import { useState } from 'react'
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
+
+  const [bookmarked, setBookMarked] = useState([]);
+
+  const handelBookMark = (blog) => {
+    setBookMarked([...bookmarked, blog])
+  }
 
   return (
     <>
@@ -10,10 +17,12 @@ function App() {
 
       <div className="blog-container grid grid-cols-3">
         <div className="left-container col-span-2">
-          <Blogs></Blogs>
+          <Blogs handelBookMark={handelBookMark}></Blogs>
         </div>
         <div className="right-container">
-          ge
+          {
+            bookmarked.map((marked) =>  <p key={marked.id}>{marked.title}</p>)
+          }
         </div>
       </div>
 

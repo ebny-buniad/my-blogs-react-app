@@ -5,7 +5,7 @@ import { CiBookmarkCheck } from "react-icons/ci";
 
 
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handelBookMark }) => {
     // console.log(blog.id)
     const { cover, title, author, posted_date } = blog;
     return (
@@ -20,7 +20,7 @@ const Blog = ({ blog }) => {
                     <div className='flex justify-between'>
                         <p className='flex items-center gap-2'><CiPen size={20} /> {author}</p>
                         <p className='flex items-center gap-2'><CiCalendarDate size={20} />{posted_date}</p>
-                        <button className='cursor-pointer'><CiBookmarkCheck size={20} /></button>
+                        <button onClick={() => { handelBookMark(blog) }} className='cursor-pointer'><CiBookmarkCheck size={20} /></button>
                     </div>
                     <h2 className="card-title">{title}</h2>
                     <div className="card-actions justify-end">
