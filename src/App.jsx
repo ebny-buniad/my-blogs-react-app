@@ -9,10 +9,10 @@ function App() {
       <Navbar></Navbar>
 
       <div className="blog-container grid grid-cols-3">
-        <div className="left-container col-span-2 border">
+        <div className="left-container col-span-2">
           <Blogs></Blogs>
         </div>
-        <div className="right-container border">
+        <div className="right-container">
           ge
         </div>
       </div>

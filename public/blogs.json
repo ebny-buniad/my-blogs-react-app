@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "cover": "https://example.com/images/blog1.jpg",
+        "cover": "https://scontent.fdac177-1.fna.fbcdn.net/v/t39.2365-6/484065280_638766765464592_8309880061157933235_n.png?_nc_cat=106&ccb=1-7&_nc_sid=e280be&_nc_ohc=LjlAwYo6Lt8Q7kNvwFveF_r&_nc_oc=AdnPS9Vsqa7ccMuLc17-WRXk_GYiUItCpDt3Ki1hMEhisBrBLa5Ialnbvm-trMZ1BHk&_nc_zt=14&_nc_ht=scontent.fdac177-1.fna&_nc_gid=Bxe37fw4tgZoA526sKcwRg&oh=00_AfFWnxQwpz9klGlOzjh-lQ9Zr6Z-gWrDN6xYlbEwAz9yrA&oe=680C939E",
         "title": "Mastering JavaScript in 30 Days",
         "author_img": "https://example.com/images/author1.jpg",
         "author": "Samiul Haque",
@@ -15,7 +15,7 @@
     },
     {
         "id": 2,
-        "cover": "https://example.com/images/blog2.jpg",
+        "cover": "https://scontent.fdac177-1.fna.fbcdn.net/v/t39.2365-6/488586469_9970779082933104_8207881810600772950_n.png?_nc_cat=110&ccb=1-7&_nc_sid=e280be&_nc_ohc=ZvOhO8X-FFgQ7kNvwExNCtO&_nc_oc=Adlv8CovDx_GhWbo2zSAKFSpirP3NoA5y9fislDNT1auw63kw_sR49z6PUUlfpWVF38&_nc_zt=14&_nc_ht=scontent.fdac177-1.fna&_nc_gid=Bxe37fw4tgZoA526sKcwRg&oh=00_AfEEFETDyzUWyu_uzCN4UdcKDrUnKXzFIaiBpOj9jebCJw&oe=680C8085",
         "title": "The Ultimate Guide to Responsive Design",
         "author_img": "https://example.com/images/author2.jpg",
         "author": "Fatima Rahman",
@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "cover": "https://example.com/images/blog3.jpg",
+        "cover": "https://scontent.fdac177-1.fna.fbcdn.net/v/t39.2365-6/481235374_1166958361738624_685709197379928348_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e280be&_nc_ohc=QS-oHstyA4EQ7kNvwFOTKIz&_nc_oc=Adnth_Pk7Kn9y_ZJQ7IoqTRPbA-YDpLmmZyFeYJqSEyIvNCkfNheAp3nooYcP4VHbno&_nc_zt=14&_nc_ht=scontent.fdac177-1.fna&_nc_gid=Bxe37fw4tgZoA526sKcwRg&oh=00_AfFde3jES7t58FCM-MYsLqf_61umZT-KL1yYnM1eFCUFEQ&oe=680C89F2",
         "title": "Understanding the JavaScript Event Loop",
         "author_img": "https://example.com/images/author3.jpg",
         "author": "Raihan Kabir",
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "cover": "https://example.com/images/blog4.jpg",
+        "cover": "https://scontent.fdac177-1.fna.fbcdn.net/v/t39.2365-6/484929527_989202926647838_7881924869305321776_n.png?_nc_cat=100&ccb=1-7&_nc_sid=e280be&_nc_ohc=sbWEI4zQ0AAQ7kNvwGED5ZG&_nc_oc=AdnSl4MpsRYBUrltQ8w8IrbbabSv5OZDaUp9p7_93R-cIhmhshDC2kAhKK6ARSaOHFk&_nc_zt=14&_nc_ht=scontent.fdac177-1.fna&_nc_gid=Bxe37fw4tgZoA526sKcwRg&oh=00_AfGLOIWWfjcOR5ABoX6I1DRVpDdQDfSUq--JMmYJKnBgVQ&oe=680C944E",
         "title": "Top 10 VS Code Extensions for Developers",
         "author_img": "https://example.com/images/author4.jpg",
         "author": "Nusrat Jahan",
