@@ -8,7 +8,15 @@ function App() {
     <>
       <Navbar></Navbar>
 
-      <Blogs></Blogs>
+      <div className="blog-container grid grid-cols-3">
+        <div className="left-container col-span-2 border">
+          <Blogs></Blogs>
+        </div>
+        <div className="right-container border">
+          ge
+        </div>
+      </div>
+
     </>
   )
 }
